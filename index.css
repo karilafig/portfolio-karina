@@ -390,3 +390,81 @@ nav a{
     background: transparent;
     border: solid currentColor;
     padding: 1.5rem 2rem;
+ }
+
+ /*-----------CARD------------*/
+ .invisible{
+   opacity: 0;
+ }
+ .card {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  white-space: nowrap;
+  margin-top: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+.cardcontent {
+  height: 39%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.cardcontent {
+  font-size: 0.8em;
+}
+.cardfooter {
+  height: 20%;
+  background: rgb(235, 235, 235);
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardbutton {
+  background: #FF8170;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transform: translate(290px, 128px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s ease-in;
+}
+.cardbutton i {
+  color: white;
+  transform: translateY(-2px);
+}
+
+.cardbutton:hover {
+  background: #E05E4C;
+}
+.cardfooter h3 {
+  font-size: 0.8em;
+}
+.cardreadme {
+  color: rgb(150, 150, 150);
+}
+.cardcontent p:nth-child(1) {
+  font-size: 0.8em;
+}
+.cardcontent h3 {
+  font-size: 1.4em;
+}
+.cardcontent p:nth-child(2) {
+  font-size: 0.9em;
+}
