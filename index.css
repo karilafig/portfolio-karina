@@ -158,6 +158,21 @@ body{
   background-color: transparent; /* Definir o fundo transparente */
 }
 
+.imagem-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.imagem-bg {
+    padding: 10px; /* ajuste o preenchimento conforme necessário */
+    justify-content: center;
+    align-items: center;
+    max-width: 580px;
+    height: auto;
+  }
+
+  
 /*---------------NAVBAR-----------------*/
 .caixa{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
