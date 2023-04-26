@@ -244,5 +244,27 @@ nav a{
     border: solid currentColor;
     padding: 1.5rem 2rem;
  }
-
- 
+ .container-cards{
+    margin-top: 0%; 
+    padding-top: 12%;
+    justify-content: center;
+    align-items: center;
+    display: flex; /* adicionado para centralizar horizontalmente */
+    }
+ .card {
+    /*width: calc(33.33% - 10px); /* Calcula a largura de cada card */
+    margin-right: 2% ;
+    border: 1px solid #ccc;
+    box-shadow: #011C40 5px 5px, #011c40b1 10px 10px, #011c40a1 15px 15px, #011c4057 20px 20px, #011c403b 25px 25px;
+    border-radius: 5px;
+    padding: 40px;
+    float: left;
+    box-sizing: border-box;
+    
+  
+  }
+  
+  .title-trab {
+    clear: both; /* Limpa o float dos cards */
+  }
+  
