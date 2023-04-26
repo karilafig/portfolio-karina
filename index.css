@@ -251,6 +251,7 @@ nav a{
     align-items: center;
     display: flex; /* adicionado para centralizar horizontalmente */
     }
+    
  .card {
     /*width: calc(33.33% - 10px); /* Calcula a largura de cada card */
     margin-right: 2% ;
