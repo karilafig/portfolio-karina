@@ -244,6 +244,9 @@ nav a{
     border: solid currentColor;
     padding: 1.5rem 2rem;
  }
+
+ /*--------------CARDS-----------------*/
+
  .container-cards{
     margin-top: 0%; 
     padding-top: 12%;
@@ -263,10 +266,10 @@ nav a{
     padding: 40px;
     float: left;
     box-sizing: border-box;
-    
-  
+    display: flex; /* Adiciona a propriedade flex no container */
+  flex-direction: column; /* Alinha os elementos internos verticalmente */
   }
-  /* === HEADING STYLE #3 === */
+
   .card-title {
     font-size:26px; font-weight:700;  letter-spacing:1px; text-transform:uppercase; width:160px; text-align:center; margin:auto; white-space:nowrap; padding-bottom:13px;
   }
@@ -279,8 +282,38 @@ nav a{
   }
 
   
-
   .title-trab {
     clear: both; /* Limpa o float dos cards */
+  }
+
+  .card-text{
+    padding: 5%;
+  display: flex; /* Adiciona a propriedade flex no container */
+  align-items: center; /* Centraliza o botão verticalmente */
+  }
+  
+  .github-btn {
+    margin: 10px auto 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.2s ease;
+  }
+  
+  .github-btn:hover {
+    background-color: #444;
+  }
+  
+  .github-btn i {
+    font-size: 24px;
+    margin-right: 10px;
+    
   }
   
