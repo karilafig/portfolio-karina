@@ -253,7 +253,7 @@ nav a{
     }
 
  .card {
-    /*width: calc(33.33% - 10px); /* Calcula a largura de cada card */
+    width: calc(33.33% - 10px); /* Calcula a largura de cada card */
     background-color: #7A44B3;
     color: #ffffff;
     margin-right: 2% ;
@@ -266,7 +266,20 @@ nav a{
     
   
   }
+  /* === HEADING STYLE #3 === */
+  .card-title {
+    font-size:26px; font-weight:700;  letter-spacing:1px; text-transform:uppercase; width:160px; text-align:center; margin:auto; white-space:nowrap; padding-bottom:13px;
+  }
+  .card-title:before {
+      background-color:#87e4b7;
+      content: '';
+      display: block;
+      height: 3px;
+      margin-bottom: 5px;
+  }
+
   
+
   .title-trab {
     clear: both; /* Limpa o float dos cards */
   }
