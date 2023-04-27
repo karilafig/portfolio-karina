@@ -268,7 +268,15 @@ nav a{
   }
 
   .card-title {
-    font-size:26px; font-weight:700;  letter-spacing:1px; text-transform:uppercase; width:160px; text-align:center; margin:1px; white-space:nowrap; padding-bottom:13px;
+    font-size:26px;
+    font-weight:700;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    width:160px;
+    text-align:center;
+    margin:1px;
+    white-space:nowrap;
+    padding-bottom:13px;
   }
   .card-title:before {
       background-color:#87e4b7;
@@ -290,9 +298,8 @@ nav a{
   
   .github-btn {
     align-items: center;
-    margin: 20px auto 0;
+    margin: auto 0 0;
     justify-content: center;
-    align-items: center;
     display: flex;
     background-color: #000;
     color: #fff;
@@ -302,7 +309,9 @@ nav a{
     font-size: 14px;
     font-weight: bold;
     transition: all 0.2s ease;
+    margin-top: auto; /* adicionado */
   }
+  
   
   .github-btn:hover {
     background-color: #444;
