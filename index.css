@@ -248,24 +248,21 @@ nav a{
  /*--------------CARDS-----------------*/
 
  .container-cards{
-    align-items: flex-start;
-    padding-top: 12%;
+    padding-top: 12%;  /* Espaçamento vertical */
     display: flex; /* adicionado para centralizar horizontalmente */
     }
 
  .card {
-    align-items: flex-start;
-    min-height: 300px;
+    min-height: 300px; /* tamanho mínimo do card */
     width: calc(33.33% - 10px); /* Calcula a largura de cada card */
-    background-color: #7A44B3;
-    color: #ffffff;
-    margin-right: 2% ;
-    border: 1px solid #011C40  ;
-    box-shadow: #011C40 5px 5px, #011c40b1 10px 10px, #011c40a1 15px 15px, #011c4057 20px 20px, #011c403b 25px 25px;
-    border-radius: 5px;
-    padding: 40px;
-    float: left;
-    box-sizing: border-box;
+    background-color: #7A44B3; /* cor do fundo */
+    color: #ffffff; /* cor da letra */
+    margin-right: 2% ; /* espaçamento dos cards */
+    border: 1px solid #011C40  ; /* borda */
+    box-shadow: #011C40 5px 5px, #011c40b1 10px 10px, #011c40a1 15px 15px, #011c4057 20px 20px, #011c403b 25px 25px; /* detalhe sombra */
+    border-radius: 5px; /* arredondamento da borda */
+    padding: 40px; /* espaçamento interno dos itens */
+    box-sizing: border-box; /* tamanho total do elemento */
     display: flex; /* Adiciona a propriedade flex no container */
   flex-direction: column; /* Alinha os elementos internos verticalmente */
   }
@@ -288,13 +285,12 @@ nav a{
 
   .card-text{
     margin-top: 1px;
-    padding: 5%;
   display: flex; /* Adiciona a propriedade flex no container */
   }
   
   .github-btn {
-    bottom: 0;
-    margin: 10px auto 0;
+    align-items: center;
+    margin: 20px auto 0;
     justify-content: center;
     align-items: center;
     display: flex;
