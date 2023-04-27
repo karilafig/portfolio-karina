@@ -248,7 +248,7 @@ nav a{
  /*--------------CARDS-----------------*/
 
  .container-cards{
-    padding-top: 12%;  /* Espaçamento vertical */
+    padding-top: 15%;  /* Espaçamento vertical */
     display: flex; /* adicionado para centralizar horizontalmente */
     }
 
@@ -257,7 +257,8 @@ nav a{
     width: calc(33.33% - 10px); /* Calcula a largura de cada card */
     background-color: #7A44B3; /* cor do fundo */
     color: #ffffff; /* cor da letra */
-    margin-right: 2% ; /* espaçamento dos cards */
+    margin-right: 1% ; /* espaçamento a direita dos cards */
+    margin-left: 1%; /* espaçamento a esquerda dos cards */
     border: 1px solid #011C40  ; /* borda */
     box-shadow: #011C40 5px 5px, #011c40b1 10px 10px, #011c40a1 15px 15px, #011c4057 20px 20px, #011c403b 25px 25px; /* detalhe sombra */
     border-radius: 5px; /* arredondamento da borda */
