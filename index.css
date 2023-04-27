@@ -218,7 +218,7 @@ nav a{
 
 
   
- /*--------------TRABALHOS-----------------*/
+ /*--------------PROJETOS-----------------*/
  .trabalhos{
      background-color:#87e4b7;
      width: 100%;
@@ -230,7 +230,7 @@ nav a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #011C40;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 35px;
     text-decoration:none; 
     max-width:400px;
     max-height:300px;
@@ -248,7 +248,7 @@ nav a{
  /*--------------CARDS-----------------*/
 
  .container-cards{
-    padding-top: 15%;  /* Espaçamento vertical */
+    padding-top: 17%;  /* Espaçamento vertical */
     display: flex; /* adicionado para centralizar horizontalmente */
     }
 
