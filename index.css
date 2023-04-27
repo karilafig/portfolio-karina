@@ -248,14 +248,14 @@ nav a{
  /*--------------CARDS-----------------*/
 
  .container-cards{
-    margin-top: 0%; 
+    align-items: flex-start;
     padding-top: 12%;
-    justify-content: center;
-    align-items: center;
     display: flex; /* adicionado para centralizar horizontalmente */
     }
 
  .card {
+    align-items: flex-start;
+    min-height: 300px;
     width: calc(33.33% - 10px); /* Calcula a largura de cada card */
     background-color: #7A44B3;
     color: #ffffff;
@@ -271,7 +271,7 @@ nav a{
   }
 
   .card-title {
-    font-size:26px; font-weight:700;  letter-spacing:1px; text-transform:uppercase; width:160px; text-align:center; margin:auto; white-space:nowrap; padding-bottom:13px;
+    font-size:26px; font-weight:700;  letter-spacing:1px; text-transform:uppercase; width:160px; text-align:center; margin:1px; white-space:nowrap; padding-bottom:13px;
   }
   .card-title:before {
       background-color:#87e4b7;
@@ -287,12 +287,13 @@ nav a{
   }
 
   .card-text{
+    margin-top: 1px;
     padding: 5%;
   display: flex; /* Adiciona a propriedade flex no container */
-  align-items: center; /* Centraliza o botão verticalmente */
   }
   
   .github-btn {
+    bottom: 0;
     margin: 10px auto 0;
     justify-content: center;
     align-items: center;
