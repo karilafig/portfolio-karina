@@ -386,6 +386,7 @@ nav a{
   }
 
   .container-icon{
+    margin-top: 100px;
     padding-top: 1%; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#fff;
@@ -400,6 +401,7 @@ nav a{
     border-radius: 50%;
     transition: transform 0.3s;
     margin: auto;
+    padding: 5%
   }
   
   .circle-icon:hover {
