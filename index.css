@@ -386,7 +386,9 @@ nav a{
   }
 
   .container-icon{
-    padding-top: 2%; 
+    padding-top: 1%; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#fff;
   }
 
   .circle-icon {
@@ -409,6 +411,44 @@ nav a{
     font-size: 50px;
     color: #fff;
   }
+
+  .text-who {
+    margin-top: 3%;
+    background: transparent;
+    border: solid currentColor;
+  }
+   
   
   
+   /*--------------FOOTER-----------------*/
+  
+  footer {
+    background-color: #011126;
+    color: #fff;
+  }
+  
+  footer h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
   
