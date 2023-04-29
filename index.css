@@ -458,33 +458,53 @@ padding-bottom: 10px;
   }
    /*--------------FOOTER-----------------*/
   
-  footer {
-    background-color: #011126;
-    color: #fff;
+   footer {
+    height: 20vh;
+    background-color: #011C40;
+    left: 0;
+    bottom: 0;
+    width: 100%;
   }
   
-  footer h4 {
-    font-size: 1.5rem;
-    font-weight: bold;
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
   }
   
-  footer p {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+  .footer-container .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 0.8em;
+    display: flex; /* Define o display como flex */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
   }
   
-  footer ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  footer li {
-    display: inline-block;
-    margin-right: 1rem;
-  }
-  
-  footer a {
-    color: #fff;
+  .footer-container .row a {
+    margin-left: 50px;
     text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+  }
+  
+  .footer-container .row a:hover {
+    color: #fff;
+  }
+  
+  .footer-container .row ul {
+    width: 100%;
+  }
+  
+  .footer-container .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+  }
+  
+  .footer-container .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
   }
   
