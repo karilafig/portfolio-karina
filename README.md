@@ -8,3 +8,6 @@ Atualmente, estamos trabalhando para adicionar novos recursos e funcionalidades 
  <img alt="HTML" src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
  <img alt="HTML" src="https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white">
  </div>
+ 
+ ## Status
+<img alt="Status" src="https://img.shields.io/badge/In%20Progress-eead2d?style=for-the-badge">
