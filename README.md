@@ -5,8 +5,8 @@ Atualmente, estamos trabalhando para adicionar novos recursos e funcionalidades 
 
 ## Tecnologias utilizadas
 <div>
- <img alt="Powershell" src="https://img.shields.io/badge/Powershell-2CA5E0?style=for-the-badge&logo=powershell&logoColor=white">
- <img alt="Crowdstrike" src="https://img.shields.io/badge/Crowdstrike-FF0000?style=for-the-badge&logoColor=white">
+ <img alt="HTML" src="https://img.shields.io/badge/HTML-ffcbdb?style=for-the-badge&logo=html&logoColor=white">
+ <img alt="CSS" src="https://img.shields.io/badge/Crowdstrike-FF0000?style=for-the-badge&logoColor=white">
  </div>
  
  ## Status
