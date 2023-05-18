@@ -5,7 +5,7 @@ Atualmente, estamos trabalhando para adicionar novos recursos e funcionalidades 
 
 ## Tecnologias utilizadas
 <div>
- <img alt="HTML" src="https://img.shields.io/badge/HTML-8DB700?style=for-the-badge&logo=html5&logoColor=white">
+ <img alt="HTML" src="https://img.shields.io/badge/HTML-FA7DA1?style=for-the-badge&logo=HTML5&logoColor=white">
  <img alt="CSS" src="https://img.shields.io/badge/CSS-8DB700?style=for-the-badge&logo=CSS3&logoColor=white">
  </div>
  
